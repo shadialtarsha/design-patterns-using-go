@@ -18,7 +18,8 @@ func Example() {
 	fmt.Println(*developer)
 	fmt.Println(*manager)
 
-	bmw := newCar(0)
-	bmw.color = "red"
-	fmt.Println(*bmw)
+	john := NewMainOfficeWorker("John", 100)
+	jane := NewAuxOfficeWorker("Jane", 200)
+	fmt.Println(john, *john.Office)
+	fmt.Println(jane, *jane.Office)
 }

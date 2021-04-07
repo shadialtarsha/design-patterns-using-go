@@ -30,5 +30,5 @@ func Example() {
 
 	b := employeeBuilder{}
 	e := b.called("Shadi").worksAs("dev").build()
-	fmt.Print(*e)
+	fmt.Println(*e)
 }
