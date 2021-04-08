@@ -6,6 +6,7 @@ import (
 	"github.com/shadialtarsha/design-patterns-using-go/builder"
 	"github.com/shadialtarsha/design-patterns-using-go/factory"
 	"github.com/shadialtarsha/design-patterns-using-go/prototype"
+	"github.com/shadialtarsha/design-patterns-using-go/singleton"
 	"github.com/shadialtarsha/design-patterns-using-go/specification"
 )
 
@@ -22,4 +23,7 @@ func main() {
 	// Prototype Pattern
 	fmt.Println("========== Prototype ==========")
 	prototype.Example()
+	// Singleton Pattern
+	fmt.Println("========== Singleton ==========")
+	singleton.Example()
 }
